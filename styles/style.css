@@ -103,3 +103,50 @@ nav ul li a {
         flex-direction: column;
     }
 }
+
+
+/* main styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* feature section */
+.tems-container {
+    display: flex;
+    align-items: center;
+}
+
+.tems-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.tems-content {
+    padding: 0 70px;
+}
+
+.tems-title {
+    color: #FF900E;
+    font-size: 2.82rem;
+    font-weight: 700;
+    width: 29.25rem;
+}
+
+.tems-title .Quick {
+    color: #727272;
+    font-weight: 500;
+}
+
+.tems-title .of {
+    color: #131313;
+}
+
+.tems-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 24px 0;
+}
